@@ -163,9 +163,7 @@ public class Principal {
 
         if (j == null) {
             System.out.println("Debe ingresar el nombre bien");
-        }
-
-        if (j != null) {
+        }else {
             bandera = true;
         }
         return bandera;
